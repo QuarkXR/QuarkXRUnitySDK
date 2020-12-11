@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8753945197990410855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8865656852302993936}
+  - component: {fileID: 5617686813382014207}
+  - component: {fileID: 4238581292965747859}
+  - component: {fileID: -4228839537896705833}
+  m_Layer: 0
+  m_Name: WaveRightController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8865656852302993936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753945197990410855}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5617686813382014207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753945197990410855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30689818b7cdde141b34d19f70de0c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WhichHand: 2
+  defaultModel: {fileID: 6072956611179375901, guid: afe63353a1928d6429a9835ffcf26dc9,
+    type: 3}
+  updateDynamically: 1
+  mergeToOneBone: 1
+  controllerSpawned: {fileID: 0}
+  loadFromAsset: 1
+--- !u!114 &4238581292965747859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753945197990410855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079daf3a6ebabb74ab2056d8380dc1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableButtonEffect: 1
+  HandType: 2
+  useSystemConfig: 1
+  buttonEffectColor: {r: 0, g: 179, b: 227, a: 255}
+  collectInStart: 1
+--- !u!114 &-4228839537896705833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753945197990410855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601ad0edcc9a5f44b834273caf247bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showIndicator: 0
+  autoLayout: 1
+  showIndicatorAngle: 30
+  hideIndicatorByRoll: 1
+  basedOnEmitter: 1
+  lineLength: 0.03
+  lineStartWidth: 0.0004
+  lineEndWidth: 0.0004
+  lineColor: {r: 1, g: 1, b: 1, a: 1}
+  textCharacterSize: 0.08
+  zhCharactarSize: 0.07
+  textFontSize: 100
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  buttonIndicationList: []
+  _displayPlane: 0
+  autoButtonIndicationList: []

@@ -1,0 +1,73 @@
+:root {
+	padding: 5px;
+	flex-direction: row;
+}
+
+.left-column {
+	align-items: center;
+	flex-grow: 2;
+	flex-shrink: 1;
+	padding: 11px 5px;
+}
+
+.right-column {
+	flex-grow: 3;
+	flex-shrink: 15;
+	padding: 5px;
+}
+
+.content Label {
+	padding: 5px 0px;
+}
+
+.body {
+	white-space: normal;
+	flex-grow: 1;
+}
+
+.status-set {
+	flex-shrink: 1;
+	flex-grow: 1;
+	flex-direction: row;
+	align-content: flex-end;
+	justify-content: space-around;
+}
+
+.status {
+	flex-grow: 1;
+	align-self: center;
+}
+
+.status-set .title {
+	-unity-font-style: bold;
+}
+
+.status-set .value {
+	padding: 2px;
+}
+
+.options {
+	flex-grow: 1;
+}
+
+.buttons {
+	flex-direction: row;
+	align-content: flex-end;
+}
+
+.buttons Button {
+	flex-grow: 1;
+	align-self: flex-end;
+}
+
+#logo {
+	--unity-image: resource("VIVE");
+}
+
+.success {
+	color: #008000;
+}
+
+.error {
+	color: #ff0000;
+}

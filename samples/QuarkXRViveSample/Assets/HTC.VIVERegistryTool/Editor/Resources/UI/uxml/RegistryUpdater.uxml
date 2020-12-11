@@ -1,0 +1,42 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+  <VisualElement class="left-column">
+    <Image name="logo" />
+  </VisualElement>
+  <VisualElement class="right-column">
+    <VisualElement class="content">
+      <Label class="body" text="Do you want to add VIVE's package registry URL to your project?" />
+      <Label class="body" text="By adding the VIVE registry URL in your 'Packages/manifest.json', you can discover, install, update or remove the packages from VIVE in the package manager window." />
+      <Label class="body" text="You can always find this window in the menu later: 'Window/VIVE/VIVE Registry Tool'" />
+    </VisualElement>
+    <VisualElement class="status-set">
+      <VisualElement class="status">
+        <Label class="title" text="Registry URL:" />
+        <Label class="value" text="" name="RegistryUrlLabel" />
+      </VisualElement>
+    </VisualElement>
+    <VisualElement class="status-set">
+      <VisualElement class="status">
+        <Label class="title" text="Registry Scopes:" />
+        <Label class="value" text="" name="RegistryScopesLabel" />
+      </VisualElement>
+    </VisualElement>
+    <VisualElement class="status-set">
+      <VisualElement class="status">
+        <Label class="title" text="Registry URL Status:" />
+        <Label class="value" text="Added" name="RegistryStatusLabel" />
+      </VisualElement>
+      <VisualElement class="status">
+        <Label class="title" text="Connection Status:" />
+        <Label class="value" text="OK" name="ConnectionStatusLabel" />
+      </VisualElement>
+    </VisualElement>
+    <VisualElement class="options">
+      <Toggle name="AutoCheck" text=" Auto Check"/>
+    </VisualElement>
+    <VisualElement class="buttons">
+      <Button name="Add" text="Add" />
+      <Button name="Remove" text="Remove" />
+      <Button name="Close" text="Close" />
+    </VisualElement>
+  </VisualElement>
+</UXML>
